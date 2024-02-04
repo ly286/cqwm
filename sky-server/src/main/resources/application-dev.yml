@@ -6,3 +6,9 @@ sky:
     database: sky_take_out
     username: sky_take_out
     password: tN2CaNMjREZsfacx
+
+  minio:
+    accessKey: RwHRY8BmdLVTxzWBVVNp
+    secretKey: 8SqMAFncrbLceet3wiDsaLk49owtymJIMTJDWBet
+    endpoint: http://118.31.60.138:9000
+    bucketName: oss1

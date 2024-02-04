@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
 
 spring:
   profiles:
@@ -37,3 +37,9 @@ sky:
     admin-ttl: 72000000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+
+  minio:
+    secret-key: ${sky.minio.secretKey}
+    endpoint: ${sky.minio.endPoint}
+    bucket-name: ${sky.minio.bucketName}
+    access-key: ${sky.minio.accessKey}
