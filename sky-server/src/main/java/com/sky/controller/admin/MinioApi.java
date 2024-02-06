@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/file")
+@RequestMapping("/admin/common")
 @Slf4j
 public class MinioApi {
 
