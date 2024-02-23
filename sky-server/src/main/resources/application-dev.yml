@@ -6,3 +6,8 @@ sky:
     database: sky_take_out
     username: sky_take_out
     password: tN2CaNMjREZsfacx
+  redis:
+    host: 118.31.60.138
+    port: 6379
+    password: tN2CaNMjREZsfacx
+    database: 0
